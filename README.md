@@ -198,18 +198,3 @@ After provisioning, attribute updates, quarantine recovery and offboarding, the 
 **Key artifacts preserved:** VM memory/startup error · DNS and Microsoft 443 connectivity validation · UPN preparation · Provisioning agent setup and AD connection · gMSA / agent configuration completion · Pilot security group creation and scoping · Provision on Demand result · Hybrid user properties · Configuration review and safety settings · Automatic attribute-change evidence · Provisioning quarantine error and recovery · Pre/post offboarding evidence · Final Healthy configuration
 
 ---
-
-## 16. Interview Explanation
-
-"I built a hybrid identity lab connecting Windows Server Active Directory to Microsoft Entra ID using Entra Cloud Sync. I used security-group scoping for a controlled pilot deployment, provisioned an on-premises user into Entra, and validated automatic attribute and account-status synchronization. I also diagnosed a provisioning quarantine caused by the synchronization agent being offline, restored connectivity, and verified the environment returned to a healthy state."
-
-## 17. Resume-Ready Version
-
-- Integrated Windows Server Active Directory with Microsoft Entra ID using Entra Cloud Sync, configuring Password Hash Sync, gMSA-based provisioning, and security-group scoped synchronization.
-- Provisioned and validated hybrid identities across AD and Entra ID, including synchronized UPNs, attributes, account state, and on-premises identity metadata.
-- Demonstrated hybrid JML lifecycle management by synchronizing user attribute changes and account disablement from Active Directory to Microsoft Entra ID.
-- Diagnosed and remediated a Cloud Sync provisioning quarantine, restoring agent connectivity and synchronization to a Healthy state while validating pending identity updates.
-
-## 18. LinkedIn-Ready Summary
-
-Built a hybrid identity lab integrating Windows Server 2025 Active Directory with Microsoft Entra ID using Entra Cloud Sync. Implemented a controlled pilot with security-group scoping, Password Hash Sync and a gMSA-based provisioning agent; provisioned an on-premises user to Entra; validated automatic attribute synchronization and hybrid offboarding; and diagnosed/recovered a provisioning quarantine caused by agent unavailability. Final Cloud Sync status was Healthy.
